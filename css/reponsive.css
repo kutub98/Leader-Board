@@ -1,0 +1,222 @@
+
+
+@media screen and (min-width: 1201px) {
+    .topPlyerBox{
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .topBlog{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .CoursDetails{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .latestCoursBox{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .topPlyerBox{
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .topBlog{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .CoursDetails{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .latestCoursBox{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .blogImg{
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+    }
+    .blogText{
+        width: 150px;
+    }
+    .CoursDetails{
+        width: 320px;
+        height: auto;
+        padding: 5px;
+        display: block;
+    }
+    .reviewTimes{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .clock{
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .clock p{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (min-width:778px) and (max-width:991px){
+    .topPlyerBox{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .topBlog{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .CoursDetails{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .latestCoursBox{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .blogImg{
+        width: 200px;
+        height: 150px;
+        margin-right: 20px;
+    }
+    .blogText{
+        width: 220px;
+    }
+    .CoursDetails{
+        width: 260px;
+        height: auto;
+        padding: 5px;
+        display: block;
+    }
+    .reviewTimes{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .clock{
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .clock p{
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 577px )and (max-width:777px){
+
+    .topPlyerBox{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .topBlog{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .CoursDetails{
+        justify-content: center;
+        align-items: center;
+    }
+    .latestCoursBox{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .blogImg{
+        width: 180px;
+        height: 150px;
+        margin-right: 20px;
+    }
+    .blogText{
+        width: 170px;
+    }
+    .CoursDetails{
+        width: 190px;
+        height: auto;
+        padding: 5px;
+        display: block;
+    }
+    .reviewTimes{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .clock{
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .clock p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .topPlayer{
+        text-align: center;
+    }
+    .topPlyerBox{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plyersInfo{
+        width: 100%;
+    }
+    .topBlog{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .topBlogs{
+        display: block;
+       margin: 2px auto;
+    }
+    .blogText{
+        margin: 20px auto;
+    }
+    .blogImg{
+        width: 100%;
+        height: 150px;
+        margin-right: 20px;
+    }
+    .latestCoursStart{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .latestCoursBox{
+       
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .CoursDetails{
+        width: 100%;
+    }
+}
